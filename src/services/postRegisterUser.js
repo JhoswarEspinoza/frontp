@@ -12,7 +12,7 @@ export default async function postRegisterUser({
   password,
   programID,
 }) {
-  const URL = `${API_URL}/Usuario/RegistrarAlumno/1234`;
+  const URL = `${API_URL}/Usuario/RegistrarAlumno`;
 
   const userInfo = {
     id: 0,
