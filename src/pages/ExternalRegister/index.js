@@ -53,7 +53,7 @@ export default function ExternalRegisterPage({ params }) {
 
           console.log(params);
 
-          fetch(`http://66.94.118.205:5029/api/Usuario/RegistrarAlumno`, {
+          fetch(`${API_URL}/api/Usuario/RegistrarAlumno`, {
                method: "POST",
                headers: { "Content-Type": "application/json" },
                body: JSON.stringify(userInfo),
